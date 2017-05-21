@@ -70,7 +70,7 @@ Ytotal[['activityid']] <- activityLabel[match(Ytotal[['activityid']], activityLa
 # Merge all datasets
 Mtotal <- cbind(Stotal,Ytotal,Xtotal)
 
-# Export the final dataset to text file
+# Export the final merged dataset to text file
 write.table(Mtotal,"finaldataset.txt")
 
 # Export the tidy dataset to text file (required in step 5 of the assignment)
